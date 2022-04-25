@@ -7,13 +7,13 @@ import Header from './components/header/header';
 import Dashboard from './components/dashboard/dashboard';
 
 const App = () => (
-  <>
+  
   <div className='container'>
     <Header title="Chytrý dům"/>
     <Dashboard data={smartHomeData}/>
   </div>
 
-  </>
+  
 );
 
 render(<App />, document.querySelector('#app'));

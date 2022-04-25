@@ -7,7 +7,6 @@ import Energy from "../energy/energy";
 
 const Dashboard = ({ data }) => {
   return (
-    <>
       <main className="dashboard">
         <Lights lights={data.lights} />
         <Climate
@@ -20,7 +19,6 @@ const Dashboard = ({ data }) => {
           water={data.energyConsumption.water}
         />
       </main>
-    </>
   );
 };
 
